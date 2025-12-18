@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hime no Coffee</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    Hime no Coffee
+    <div style="font-size: 1rem; font-weight: normal;">
+      <h3>Setiap Hari, Pukul : 15:00 - 01:00 WIB</h3>
+      Jl. Peta Barat (Sebrang Apotek K-24), Kalideres, Jakarta Barat, Indonesia<br>
+      Telepon: 0813-1770-3715<br>
+      GoFood: <a href="https://gofood.link/a/NM61Gmm" target="_blank">https://gofood.link/a/NM61Gmm</a><br>
+      Instagram: <a href="https://instagram.com/himenocoffee" target="_blank">@himenocoffee</a></br>
+    </div>
+  </header>
+
+  <!-- Navigasi -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">Tentang Kami</a>
+    <a href="#menu">Menu</a>
+    <a href="#order">Order</a>
+  </nav>
+
+  <!-- Section: Home -->
+  <section id="home">
+    <h1>Selamat Datang di Hime no Coffee</h1>
+    <p>Temukan Kenikmatan dalam Setiap Tegukan</p>
+
+    <div class="home-image">
+      <img src="image/hime.jpg" alt="Hime no Coffee">
+    </div>
+
+    <p>Tempat nyaman untuk bersantai, dengan cita rasa istimewa</p>
+  </section>
+
+  <!-- Section: Tentang Kami -->
+<section id="about">
+  <h2>Tentang Kami</h2>
+  <p>
+    Hime no Coffee adalah sebuah coffee shop yang berdiri sejak 9 Desember 2024, terinspirasi dari kecintaan pemiliknya terhadap kopi dan budaya Jepang. 
+    Nama Hime no Coffee sendiri berasal dari kata “Hime” yang dalam bahasa Jepang berarti putri, terinspirasi dari nama istri pemilik, sehingga maknanya adalah "Kopinya Tuan Putri".
+  </p>
+
+  <p>
+    Kami ingin menciptakan tempat yang bisa dinikmati semua kalangan, baik pecinta kopi maupun bukan. 
+    Hampir semua minuman di Hime no Coffee menggunakan bahan dasar susu, menciptakan cita rasa lembut yang mudah diterima lidah siapa pun. 
+    Untuk pecinta kopi sejati, kami menyajikan racikan dengan 100% biji kopi Arabika, termasuk pilihan manual brew seperti Las Flores, dan lainnya yang dapat dinikmati tanpa tambahan gula. 
+    Selain kopi, tersedia juga minuman non-kopi, snack, pastry, dan es krim yang bisa dipilih sesuai selera.
+  </p>
+
+  <p>
+    Hime no Coffee juga menyediakan game ringan seperti UNO agar momen nongkrong makin seru dan kerap mengadakan acara seru seperti nobar (nonton bareng), 
+    contohnya saat pertandingan Timnas Indonesia. Kunjungi Instagram kami untuk berbagai promo atau informasi terbaru.
+  </p>
+
+</section>
+
+
+  <!-- Section: Menu -->
+  <section id="menu" class="menu-section">
+
+    <!-- Coffee Menu -->
+    <div class="menu-category">
+      <h2 class="menu-title">Coffee</h2>
+      <div class="menu-row">
+
+        <div class="menu-card">
+          <img src="image/americano.jpg" alt="Americano">
+          <h3>Americano</h3>
+          <p class="price">Rp 20.000</p>
+          <button onclick="promptAndAdd('Americano', 20000)">Tambah</button>
+        </div>
+
+        <div class="menu-card">
+          <img src="image/caffelatte.jpg" alt="Caffe Latte">
+          <h3>Caffe Latte</h3>
+          <p class="price">Rp 23.000</p>
+          <button onclick="promptAndAdd('Caffe Latte', 23000)">Tambah</button>
+        </div>
+
+        <div class="menu-card">
+          <img src="image/brownsugar.jpg" alt="Brown Sugar Latte">
+          <h3>Brown Sugar Latte</h3>
+          <p class="price">Rp 25.000</p>
+          <button onclick="promptAndAdd('Brown Sugar Latte', 25000)">Tambah</button>
+        </div>
+
+        <div class="menu-card">
+          <img src="image/caramellatte.jpg" alt="Caramel Latte">
+          <h3>Caramel Latte</h3>
+          <p class="price">Rp 28.000</p>
+          <button onclick="promptAndAdd('Caramel Latte', 28000)">Tambah</button>
+        </div>
+
+        <div class="menu-card">
+          <img src="image/hazelnutlatte.jpg" alt="Hazelnut Latte">
+          <h3>Hazelnut Latte</h3>
+          <p class="price">Rp 28.000</p>
+          <button onclick="promptAndAdd('Hazelnut Latte', 28000)">Tambah</button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Non-Coffee Menu -->
+    <div class="menu-category">
+      <h2 class="menu-title">Non-Coffee</h2>
+      <div class="menu-row">
+
+        <div class="menu-card">
+          <img src="image/chocolate.jpg" alt="Chocolate">
+          <h3>Chocolate</h3>
+          <p class="price">Rp 25.000</p>
+          <button onclick="promptAndAdd('Chocolate', 25000)">Tambah</button>
+        </div>
+
+        <div class="menu-card">
+          <img src="image/matcha.jpg" alt="Matcha">
+          <h3>Matcha</h3>
+          <p class="price">Rp 25.000</p>
+          <button onclick="promptAndAdd('Matcha', 25000)">Tambah</button>
+        </div>
+
+        <div class="menu-card">
+          <img src="image/redvelvet.jpg" alt="Red Velvet">
+          <h3>Red Velvet</h3>
+          <p class="price">Rp 25.000</p>
+          <button onclick="promptAndAdd('Red Velvet', 25000)">Tambah</button>
+        </div>
+
+        <div class="menu-card">
+          <img src="image/taro.jpg" alt="Taro">
+          <h3>Taro</h3>
+          <p class="price">Rp 25.000</p>
+          <button onclick="promptAndAdd('Taro', 25000)">Tambah</button>
+        </div>
+
+        <div class="menu-card">
+          <img src="image/cookiescream.jpg" alt="Cookies n Cream">
+          <h3>Cookies n Cream</h3>
+          <p class="price">Rp 25.000</p>
+          <button onclick="promptAndAdd('cookies n cream', 25000)">Tambah</button>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Food Menu -->
+    <div class="menu-category">
+      <h2 class="menu-title">Food</h2>
+      <div class="menu-row">
+
+        <div class="menu-card">
+          <img src="image/Dimsum.jpg" alt="Dimsum">
+          <h3>Dimsum</h3>
+          <p class="price">Rp 20.000</p>
+          <button onclick="promptAndAdd('Dimsum', 20000)">Tambah</button>
+        </div>
+
+        <div class="menu-card">
+          <img src="image/Croissant.jpg" alt="Croissant Butter">
+          <h3>Croissant Butter</h3>
+          <p class="price">Rp 12.000</p>
+          <button onclick="promptAndAdd('Croissant Butter', 12000)">Tambah</button>
+        </div>
+
+        <div class="menu-card">
+          <img src="image/DanishBlue.jpg" alt="Danish Blueberry">
+          <h3>Danish Blueberry</h3>
+          <p class="price">Rp 16.000</p>
+          <button onclick="promptAndAdd('Danish Blueberry', 16000)">Tambah</button>
+        </div>
+
+        <div class="menu-card">
+          <img src="image/DanishChocolate.jpg" alt="Danish Chocolate">
+          <h3>Danish Chocolate</h3>
+          <p class="price">Rp 15.000</p>
+          <button onclick="promptAndAdd('Danish Chocolate', 15000)">Tambah</button>
+        </div>
+
+        <div class="menu-card">
+          <img src="image/Frenchfries.jpg" alt="French Fries">
+          <h3>French Fries</h3>
+          <p class="price">Rp 15.000</p>
+          <button onclick="promptAndAdd('French Fries', 15000)">Tambah</button>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Modal Tambahan -->
+<div id="noteModal" class="modal">
+  <div class="modal-content">
+    <h3>Tambahan catatan untuk <span id="modalItem"></span></h3>
+    <input type="text" id="noteInput" placeholder="Contoh: kurang gula, extra ice">
+    <br><br>
+    <button onclick="confirmNote()">Tambah ke Keranjang</button>
+    <button onclick="closeModal()">Batal</button>
+  </div>
+</div>
+
+  <!-- Section: Order --><section id="order">
+    <h2>Pesanan Anda</h2>
+    <div id="cart"></div>
+    <p><strong>Total:</strong> Rp <span id="total">0</span></p>
+
+    <form action="checkout.php" method="POST" onsubmit="return prepareCheckout()">
+      <input type="hidden" name="orderData" id="orderData" />
+      <label for="method">Metode Pembayaran:</label>
+      <select name="method" id="method" required>
+        <option value="QRIS">QRIS</option>
+        <option value="Kasir">Bayar ke Kasir</option>
+      </select>
+      <br />
+      <button type="submit">Checkout</button>
+    </form>
+  </section>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+
+</body>
+</html>
